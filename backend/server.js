@@ -1,4 +1,5 @@
 //server
+require('dotenv').config();//key now access 
 const app = require('./src/app');
 
 app.listen(3000, ()=>{
